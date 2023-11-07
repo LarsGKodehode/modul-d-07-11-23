@@ -1,4 +1,5 @@
 import { Counter } from './components/Counter/Counter'
+import { FilterableList } from './components/FilterableList/FilterableList'
 import './App.css'
 
 function App() {
@@ -14,6 +15,10 @@ function App() {
             <Counter />
           </section>
 
+          <section>
+            <h2>Reactive Filter</h2>
+            <FilterableList />
+          </section>
         </main>
 
       <footer className='text-center'>
